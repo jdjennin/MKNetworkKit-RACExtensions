@@ -8,7 +8,7 @@
 
 #import <MKNetworkEngine.h>
 
-#import <ReactiveCocoa/ReactiveCocoa.h>
+@class RACSignal;
 
 @interface MKNetworkEngine (RACExtensions)
 

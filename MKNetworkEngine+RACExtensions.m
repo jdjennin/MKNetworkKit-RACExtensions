@@ -9,6 +9,8 @@
 #import "MKNetworkEngine+RACExtensions.h"
 #import "MKNetworkOperation.h"
 
+#import <ReactiveCocoa/ReactiveCocoa.h> 
+
 typedef MKNetworkOperation *(^RACNetworkOperationBlock)(MKNKImageBlock imageBlock, MKNKResponseErrorBlock errorBlock);
 
 @implementation MKNetworkEngine (RACExtensions)
@@ -107,11 +109,6 @@ typedef MKNetworkOperation *(^RACNetworkOperationBlock)(MKNKImageBlock imageBloc
     };
     
     return [self rac_imageCategoryWithOriginalMethod:originalMethod operation:operation];
-}
-
-- (RACSignal *)rac_uploadProgressSignal
-{
-    
 }
 
 @end
