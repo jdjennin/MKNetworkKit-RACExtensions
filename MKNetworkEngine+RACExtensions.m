@@ -3,7 +3,7 @@
 //  MKNetworkKit-iOS
 //
 //  Created by Jacob Jennings on 9/5/13.
-//  Copyright (c) 2013 Steinlogic. All rights reserved.
+//  Copyright (c) 2013 Jacob Jennings. All rights reserved.
 //
 
 #import "MKNetworkEngine+RACExtensions.h"
