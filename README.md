@@ -3,7 +3,7 @@ MKNetworkKit-RACExtensions
 
 This repo adds ReactiveCocoa functionality to existing MKNetworkKit classes. 
 
-The preferred method of inclusion is via Cocoapods! 
+The preferred method of inclusion is via CocoaPods! 
 
 In your Podfile, simply put
 
